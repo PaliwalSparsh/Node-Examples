@@ -9,7 +9,7 @@ http.createServer(function(req, res) {
 
     res.writeHead(200, { 'Content-Type': 'text/html' });
     var html = fs.readFileSync(__dirname + '/index.htm', 'utf8');
-    var message = "Hello World ....";
+    var message = "Hello World ...";
     var html = html.replace('{Message}', message);
     res.end(html);
 
