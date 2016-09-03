@@ -5,10 +5,10 @@
             "name": "Launch",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/app_33_Inheritance/app.js",
+            "program": "${workspaceRoot}/app_70_ExpressMiddleware/app.js",
             "stopOnEntry": false,
             "args": [],
-            "cwd": "${workspaceRoot}/app_33_Inheritance",
+            "cwd": "${workspaceRoot}/app_70_ExpressMiddleware",
             "preLaunchTask": null,
             "runtimeExecutable": null,
             "runtimeArgs": [
